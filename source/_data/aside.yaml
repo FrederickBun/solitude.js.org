@@ -1,0 +1,45 @@
+- name: doc
+  title: 文档目录 
+  class: card-doc
+  id:
+  icon: solitude st-book-2-fill
+  content_class:
+  content_id: 
+  content_css: 
+  content_html: "<ul class='card-category-list'>
+  <li class='card-category-list-item' onclick='pjax.loadUrl(\"/p/222d372e.html\")'>🚀 快速开始</li>
+  <li class='card-category-list-item' onclick='pjax.loadUrl(\"/p/c7b87cc.html\")'>🔩 主题配置-1</li>
+  <li class='card-category-list-item' onclick='pjax.loadUrl(\"/p/ce332f00.html\")'>🏹 主题配置-2</li>
+  <li class='card-category-list-item' onclick='pjax.loadUrl(\"/p/3c80d950.html\")'>🎯 主题配置-3</li>
+  <li class='card-category-list-item' onclick='pjax.loadUrl(\"/p/2d1abc96.html\")'>🔧 页面配置</li>
+  <li class='card-category-list-item' onclick='pjax.loadUrl(\"/p/feaa1bcb.html\")'>📦 主题问答</li>
+  </ul>"
+- name: afdian
+  title: 正在为主题开发赞助
+  class: card-power
+  id:
+  icon: solitude st-heart-3-fill
+  content_class:
+  content_id:
+  content_css:
+  content_html: '<a id="power-star" target="_blank">
+  <div id="power-star-image"></div>
+  <div class="power-star-body">
+    <div id="power-star-title"></div>
+    <div id="power-star-desc"></div>
+  </div>
+  </a>
+  <div class="power-list">
+    <div class="power-item"><div class="power-item-body"></div></div>
+  </div>
+  <hr>
+  <div class="power-set">
+    <a class="power-set-item" title="在 Github Sponsor 为作者赞助" href="https://github.com/sponsors/efuo/">
+      <i class="solitude st-github-fill"></i>
+      Sponsor
+    </a>
+    <a class="power-set-item" title="在 爱发电 为作者赞助" href="https://afdian.net/a/efu0u0">
+      <i class="solitude st-afdian-line"></i>
+      爱发电
+    </a>
+  </div>'

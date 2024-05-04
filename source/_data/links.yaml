@@ -1,0 +1,53 @@
+banner_suffix:
+links:
+  - class_name: 网站 # 分类名称
+    descr: 重要的事情说三遍 # 分类简介
+    type: card # 显示方式，有两种 card / item
+    suffix:
+    link_list:
+      - name: Efu # 友链名称
+        link: https://www.efu.me # 友链地址
+        descr: An Open Source worker. # 友链简介
+        avatar: https://s3.qjqq.cn/47/6625c1a86d7fd.webp!color # 显示头像
+        topimg: https://s3.qjqq.cn/47/660a7ece07609.webp!color # 如果是card模式下，将显示
+      - name: Solitude
+        link: https://github.com/valor-x/hexo-theme-solitude
+        descr: A simple and beautiful theme for Hexo.
+        avatar: https://s3.qjqq.cn/47/661f44ea57a05.webp!color
+        topimg: https://s3.qjqq.cn/47/660a84c6b1e15.webp!color
+      - name: Hexo
+        link: https://hexo.io
+        descr: A fast, simple & powerful blog framework.
+        avatar: https://s3.qjqq.cn/47/660a84a73e76d.webp!color
+        topimg: https://s3.qjqq.cn/47/660a84afc3e34.webp!color
+  - class_name: 示例
+    descr: 使用主题的朋友们
+    type: item
+    suffix:
+    link_list:
+      - name: Efu
+        link: https://www.efu.me
+        descr: An Open Source worker.
+        avatar: https://s3.qjqq.cn/47/6625c1a86d7fd.webp!color
+      - name: 青桔气球
+        link: https://blog.qjqq.cn/
+        avatar: https://s3.qjqq.cn/47/660a82a602ef7.webp!color
+        descr: 分享网络安全与科技生活
+        tag: 青桔
+        color: speed
+      - name: btwoa
+        link: https://blog.btwoa.com/
+        avatar: https://s3.qjqq.cn/47/660a820d2c30a.webp!color
+        descr: 一个技术宅。
+      - name: Coutrue
+        link: https://www.coutures.top/
+        avatar: https://s3.qjqq.cn/47/662f107412c8f.webp!color
+        descr: 不忘初心，方得始终。
+      - name: 理随
+        link: https://blog.lisui.top/
+        avatar: https://s3.qjqq.cn/47/660a831f37c53.webp!color
+        descr: 生而无畏，站至终章。
+      - name: 虎了吧唧
+        link: https://blog.hulebaji.me
+        avatar: https://s3.qjqq.cn/47/660a829094fa7.webp!color
+        descr: 研墨成浆，提笔思量

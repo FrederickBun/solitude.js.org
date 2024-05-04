@@ -1,0 +1,13 @@
+title: 关于主题
+
+#自定义
+cause:
+  tip: 给予主题创造者帮助的人
+  title: 感谢赞赏我的每个人
+  content: <br>完整的关于页请到开发者的博客查看，这里只是简单的展示。<br>
+    主题的开发和维护是一项耗时的工作，如果没有利用外部贡献或社区援助，开源工作进行下去真的很难。仅仅声称信用是不合理的，如果你从这些资源中受益，我建议你考虑支持维护者。衷心感谢您的赞助！💖
+    如果没有利用外部贡献或社区援助，开源工作进行下去真的很难。仅仅声称信用是不合理的，如果你从这些资源中受益，我建议你考虑支持维护者。衷心感谢您的赞助！💖
+    <br>
+    <a href="https://afdian.net/a/efu0u0/">通过爱发电</a> 丨 <a href="https://github.com/sponsors/efuo/">通过 Sponsor</a>
+    <br>
+    <a href="https://fastly.jsdelivr.net/gh/efuo/static/sponsors.svg"><img class="nolazyload" src="https://fastly.jsdelivr.net/gh/efuo/static/sponsors.svg" width="100%" /></a>

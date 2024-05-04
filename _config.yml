@@ -1,0 +1,181 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Solitude
+subtitle: '一款设计师风格的 Hexo 主题'
+description: '一款设计师风格的 Hexo 主题，支持懒加载、PWA、Latex以及多种评论系统。'
+keywords: 'Solitude, Hexo, 主题, 博客, 设计师, PWA, Latex, 评论系统'
+author: Efu
+language: 'zh-CN'
+timezone: 'Asia/Shanghai'
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: https://solitude.js.org
+permalink: p/:abbrlink.html
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: solitude
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: ''
+
+markdown:
+  preset: 'default' # 使用的 MD 语法，默认使用的 GFM
+  render:
+    html: true # 渲染 html
+    xhtmlOut: false
+    langPrefix: 'language-' # 在代码块的类名中添加前缀（指定语言时）。
+    breaks: true
+    linkify: false # 如果你写了一个链接而不是 [name](link) 方式，会自动识别为链接并渲染。
+    typographer: true # 将替换常见的印刷元素。
+    quotes: '“”‘’' # 替换文章张的 "" '' 号
+  enable_rules:
+  disable_rules:
+  plugins: # 使用插件
+    - '@renbaoshuo/markdown-it-katex'
+  anchors:
+    level: 1 # 渲染标题的级别（h1,h2,h3）
+    collisionSuffix: ''
+    permalink: true
+    permalinkClass: 'headerlink'
+    permalinkSide: 'left'
+    permalinkSymbol: ''
+    case: 0
+    separator: '-'
+  images: # 图片的一些编译
+    lazyload: true # 是否需要渲染 lazyload
+    prepend_root: false
+    post_asset: false
+  inline: false
+
+abbrlink:
+  alg: crc32      #support crc16(default) and crc32
+  rep: hex        #support dec(default) and hex
+  drafts: false   #(true)Process draft,(false)Do not process draft. false(default)
+  # Generate categories from directory-tree
+  # depth: the max_depth of directory-tree you want to generate, should > 0
+  auto_category:
+    enable: false  #true(default)
+    depth:        #3(default)
+    over_write: false
+  auto_title: true #enable auto title, it can auto fill the title by path
+  auto_date: false #enable auto date, it can auto fill the date by time today
+  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink. This only updates abbrlink rather than other front variables.
+
+nofollow:
+  enable: true
+  field: site
+  exclude:
+    - 'exclude1.com'
+    - 'exclude2.com'
+
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
+sitemap:
+  path:
+    - sitemap.xml
+    - sitemap.txt
+  template:
+  template_txt:
+  rel: false
+  tags: true
+  categories: true
+
+swpp:
+  # 是否启用插件
+  enable: true
+  # 是否在发布前自动执行脚本
+  # auto_exec: true
+  # 构建时拉取版本文件的警告等级，缺省为 1（该功能仅在 swpp-backends 版本号 >= 2.1.2 时可用）
+  # 0 - 表示不允许出现 404 情况；1 - 表示允许服务器返回 404 状态码；2 - 表示允许任何 404（包括 DNS 解析失败等）
+#  warn_level: 1
+  # 检查版本的 URL，不能以 '/' 结尾
+  # npm_url: 'https://registry.npmmirror.com'
