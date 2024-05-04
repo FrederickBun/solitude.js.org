@@ -11,6 +11,7 @@ tags:
 cover: https://s3.qjqq.cn/47/66362773209e3.webp!color
 comment: true
 sticky: 1
+description: 本文档为 Solitude 主题内置标签的使用说明，包括按钮、图片、音频、视频、标签、时间轴、折叠块、外链、复选列表等。
 ---
 
 ## 按钮 btn
