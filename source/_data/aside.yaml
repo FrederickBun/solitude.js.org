@@ -13,6 +13,7 @@
   <li class='card-category-list-item' onclick='pjax.loadUrl(\"/p/3c80d950.html\")'>🎯 主题配置-3</li>
   <li class='card-category-list-item' onclick='pjax.loadUrl(\"/p/2d1abc96.html\")'>🔧 页面配置</li>
   <li class='card-category-list-item' onclick='pjax.loadUrl(\"/p/feaa1bcb.html\")'>📦 主题问答</li>
+  <li class='card-category-list-item' onclick='pjax.loadUrl(\"/p/53685c23.html\")'>📝 进阶配置</li>
   </ul>"
 - name: afdian
   title: 正在为主题开发赞助
