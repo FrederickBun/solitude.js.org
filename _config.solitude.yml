@@ -180,14 +180,14 @@ aside:
     author:
       # 头像
       # Avatar
-      img: https://s3.qjqq.cn/47/6625c1a86d7fd.webp!color
+      img: https://s3.qjqq.cn/47/661f44ea57a05.webp!color
       # 表情图片链接
       # Emoticon image link
       # tip: 26x26 size
       sticker:
     # 点击作者名称跳转链接
     # Click the author name to jump link
-    url: /about/
+    url: https://github.com/valor-x
     # 文案1
     # label1
     content: 分享自己对编程的<b>热爱</b>，对美好生活的<b>向往</b>，对知识海洋<b>探索历程</b>。
