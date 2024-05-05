@@ -386,7 +386,7 @@ post:
       - linkedin
   # 版权中订阅按钮跳转链接，填写地址后开启
   # Subscription button jump link in copyright
-  rss: # /atom.xml
+  rss: /atom.xml
   # 文章主题色获取
   # Article theme color acquisition
   covercolor:
@@ -919,10 +919,10 @@ CDN:
   # The CDN provider of internal scripts (主题内 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # Dev version can only choose. ( dev版本只能为 local )
-  internal: custom
+  internal: cdnjs
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: jsdelivr/unpkg/cdnjs/custom
-  third_party: custom
+  third_party: cdnjs
 
   # Add version number to url, true or false
   version: true
