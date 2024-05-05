@@ -671,7 +671,7 @@ wordcount: true
 # 访问统计
 # access statistics
 busuanzi: true
-busuanzi_use: 0 # 0: 原版 / 1: 青秸(other: 其它自定義的busuanzi平台)
+busuanzi_use: 1 # 0: 原版 / 1: 青秸(other: 其它自定義的busuanzi平台)
 
 # 搜索
 # search
@@ -915,10 +915,11 @@ CDN:
 
   # Custom format
   # For example: https://cdn.staticfile.net/${cdnjs_name}/${version}/${min_cdnjs_file}
-  custom_format: https://cdn.staticfile.net/${cdnjs_name}/${version}/${min_cdnjs_file}
+  custom_format: //cdn.staticfile.net/${cdnjs_name}/${version}/${min_cdnjs_file}
 
   option:
-    solitude_css: https://cdn2.codesign.qq.com/icons/7pOrz0WXB5ZWJPX/latest/iconfont.css
+    solitude_css: //cdn2.codesign.qq.com/icons/7pOrz0WXB5ZWJPX/latest/iconfont.css
+    busuanzi_qj_js: //pv.lemonso.com/js
     # algolia_search:
     # instantsearch:
     # pjax:
