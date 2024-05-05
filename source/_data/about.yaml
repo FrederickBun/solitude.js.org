@@ -1,13 +1,69 @@
-title: 关于主题
+title: Solitude
 
-#自定义
-cause:
-  tip: 给予主题创造者帮助的人
-  title: 感谢赞赏我的每个人
-  content: <br>完整的关于页请到开发者的博客查看，这里只是简单的展示。<br>
-    主题的开发和维护是一项耗时的工作，如果没有利用外部贡献或社区援助，开源工作进行下去真的很难。仅仅声称信用是不合理的，如果你从这些资源中受益，我建议你考虑支持维护者。衷心感谢您的赞助！💖
-    如果没有利用外部贡献或社区援助，开源工作进行下去真的很难。仅仅声称信用是不合理的，如果你从这些资源中受益，我建议你考虑支持维护者。衷心感谢您的赞助！💖
-    <br>
-    <a href="https://afdian.net/a/efu0u0/">通过爱发电</a> 丨 <a href="https://github.com/sponsors/efuo/">通过 Sponsor</a>
-    <br>
-    <a href="https://fastly.jsdelivr.net/gh/efuo/static/sponsors.svg"><img class="nolazyload" src="https://fastly.jsdelivr.net/gh/efuo/static/sponsors.svg" width="100%" /></a>
+authorinfo:
+  leftTags:
+    - '🤖️ 易用的优雅主题'
+    - '🎨️ 个性化的设计风格'
+    - '💻️ 详细的文档和教程'
+  rightTags:
+    - '🎉️ 足够多的功能和插件'
+    - '🚀️ 优秀的性能和体验'
+    - '🔥️ 持续更新和维护'
+  image: https://s3.qjqq.cn/47/662b44976f1ce.webp!water
+
+contentinfo: # 顶部个人信息展示
+  sup: 你好，很高兴认识你👋
+  name: 我是 Solitude
+  title: 一款设计师风格的 Hexo 主题，支持懒加载、PWA、Latex以及多种评论系统。
+  tip: 追求
+  slogan: 源于<br>热爱而去创造
+  mask:
+    - '🚀️ 优秀性能'
+    - '🎉️ 多种功能'
+    - '📚️ 详细文档'
+
+award:
+  enable: true
+  description: 感谢赞助主题开发的每个人，因为你们，让我感受到开发主体能够给你们创造价值。这会让我在开源这条路上走得更远。
+  tips: 总金额：¥{sum}，将全部用于主题的维护和更新。 # 必须带 {sum}，否则无法显示总金额
+rewardList: # 底部捐赠
+  - name: Couture
+    money: 66.66
+    time: 2024-05-05
+    icon: st-alipay-fill
+  - name: Sh1n3zZ
+    money: 78
+    time: 2024-04-29
+    icon: st-afdian-line
+  - name: 糕小菜
+    money: 5
+    time: 2024-04-28
+    icon: st-afdian-line
+  - name: btwoa
+    money: 28
+    time: 2024-04-26
+    icon: st-afdian-line
+  - name: 理随
+    money: 28
+    time: 2024-04-21
+    icon: st-afdian-line
+  - name: 爱来自达力安造船厂
+    money: 28
+    time: 2024-04-12
+    icon: st-afdian-line
+  - name: Couture
+    money: 28
+    time: 2024-04-10
+    icon: st-afdian-line
+  - name: 虎了吧唧
+    money: 28
+    time: 2024-04-08
+    icon: st-afdian-line
+  - name: -你呀
+    money: 28
+    time: 2024-04-03
+    icon: st-afdian-line
+  - name: 爱发电用户_G6sk
+    money: 5
+    time: 2023-11-08
+    icon: st-afdian-line

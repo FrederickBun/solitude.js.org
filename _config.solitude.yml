@@ -361,14 +361,18 @@ post:
     title: 感谢您的赞赏。
     desc: 因为有你们的支持，我才体会到写文章的价值。
     list:
+      - name: 支付宝
+        qcode: https://s3.qjqq.cn/47/66374315ebd08.webp!color
+        url: https://s3.qjqq.cn/47/663742160be01.webp!color
+        color: var(--efu-blue)
+      - name: 微信
+        qcode: https://s3.qjqq.cn/47/663742bac8e52.webp!color
+        url: https://s3.qjqq.cn/47/663742bac8e52.webp!color
+        color: var(--efu-green)
       - name: 爱发电
         qcode: https://s3.qjqq.cn/47/661ba8e695f17.webp!color
         url: https://afdian.net/a/efu0u0/
         color: var(--efu-purple)
-      - name: Github Sponsor
-        qcode: https://s3.qjqq.cn/47/661ba900c4bc1.webp!color
-        url: https://github.com/sponsors/efuo
-        color: var(--efu-black)
   # 分享按钮，需要是什么哪些按钮，填写后开启
   share:
     enable: true
