@@ -7,7 +7,7 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
-    "solitude": "hexo clean && hexo generate && hexo swpp && gulp"
+    "solitude": "hexo clean && hexo generate && gulp"
   },
   "hexo": {
     "version": "7.2.0"
@@ -35,11 +35,9 @@
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
-    "hexo-swpp": "^3.3.7",
     "hexo-theme-solitude": "^1.10.1",
     "hexo-util": "^3.3.0",
     "hexo-wordcount": "^6.0.1",
-    "moment": "^2.30.1",
-    "swpp-backends": "^2.3.11"
+    "moment": "^2.30.1"
   }
 }
